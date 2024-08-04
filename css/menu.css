@@ -1,0 +1,295 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+::selection{
+    background-color: #e25f3ea9;
+    color: #fff;
+}
+body{
+  
+    background-color: #373A40;
+}
+/* navbar */
+nav{
+    background-color: #999999a4 !important;
+}
+.navbar-brand{
+    position: relative;
+    z-index: 55;
+    top: 20px ;
+    border-color: #E25E3E !important;
+    background-color: #E25E3E !important;
+}
+.nav-item{
+    transition: all 0.25s;
+    padding-top: 35px !important;
+}
+.nav-link {
+    font-size: large !important;
+    color: white !important;
+    transition: all 0.25s;
+}
+
+.nav-link:hover{
+    transition: all 0.25s;
+    border-radius: 10px;
+    background-color: #2e2e2e !important;
+   transform: scale(1.05);
+    color: #E25E3E !important;
+    font-size: larger !important;
+}
+.activee{
+    transition: all 0.25s;
+    border-radius: 10px;
+    background-color: #2e2e2e !important;
+   transform: scale(1.05);
+    color: #E25E3E !important;
+    font-size: larger !important;
+}
+header{
+    background-image: linear-gradient(#585858ad , #585757d9), url(../images/StockCake-Urban\ Coffee\ Shop_1720555096.jpg);
+    width: 100%;
+    height: 65vh;
+    background-size: cover;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    color: #E25E3E;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+}
+header .iconheader{
+    color: #373A40;
+    font-size: 35px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: #E25E3E !important;
+    padding: 20px;
+}
+section{
+    width: 100%;
+   text-align: center;
+   padding: 50px 0;
+}
+
+section h2{
+    color: #E25E3E;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+}
+.list-group-item {
+width: 300px;
+cursor: pointer;
+font-size: 25px;
+background-color: #eeeeeea4 !important;
+color: white;
+}
+#MainDISH .card{
+
+    background-color: #eeeeeea4;
+    border: 1px solid #eeeeeea4;
+}
+#MainDISH .card img{
+    width: 100%;
+    height: 300px;
+}
+section p{
+    color: #3e3e3e77;
+    font-size: 20px;
+}
+.MainDISH .price{
+    color: #E25E3E;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+#strt{
+    width: 100%;
+    background-color: #686D76;
+}
+#strt .card{
+    background-color: #eeeeeea4;
+    border: 2px solid #E25E3E;
+   border-top-right-radius: 30px;
+   border-bottom-left-radius: 30px;
+
+}
+#strt .card img{
+    width: 100%;
+    height: 300px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+ 
+}
+#strt h2{
+    color: white;
+    font-size: 30px;
+    padding: 0 10px;
+    position: relative;
+
+}
+#strt h2::after{
+    content: "";
+    position: absolute;
+    width: 45%;
+    left: 5px;
+    top: 9px;
+    height: 2px;
+    background-color: #E25E3E;
+}
+#strt h2::before{
+    content: "";
+    position: absolute;
+    width: 45%;
+    right: 5px;
+    top: 9px;
+    height: 2px;
+    background-color: #E25E3E;
+}
+#strt .card h5{
+    font-size: 25px;
+}
+.desserts{
+    margin: 25px 0;
+    width: 100%;
+    padding: 20px 0;
+
+}
+.desserts h2{
+    color: #E25E3E;
+    font-size: 30px;
+    padding: 0 10px;
+    position: relative;
+    text-align: center;
+}
+.desserts h2::after{
+    content: "";
+    position: absolute;
+    width: 45%;
+    left: 5px;
+    top: 9px;
+    height: 2px;
+    background-color: white;
+}
+.desserts h2::before{
+    content: "";
+    position: absolute;
+    width: 45%;
+    right: 5px;
+    top: 9px;
+    height: 2px;
+    background-color: white;
+}
+
+#desserts .card{
+    background-color: #eeeeeea4;
+   border: 2px solid white;
+   border-top-right-radius: 30px;
+   border-bottom-left-radius: 30px;
+
+}
+#desserts .card img{
+    width: 100%;
+    height: 300px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+ 
+}
+
+/* footer */
+footer{
+    background-color: #999999a4;
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+}
+.footer-logo img{
+    text-align: center;
+    width: 25%;
+    height: 25%;
+    padding: 10px;
+    background-color: #E25E3E;
+    border-radius: 50%;
+}
+footer a{
+    text-decoration: none;
+    color: #EEEEEE;
+    transition: all 0.25s;
+
+}
+.linksfooter li {
+    padding: 5px;
+    color: #EEEEEE;
+    transition: all 0.25s;
+}
+.linksfooter li a:hover{
+    width: 500px;
+    background-color: #999999a4;
+    border-radius: 10px;
+    padding: 10px 30px;
+    color: #E25E3E;
+    font-size: 18px;
+}
+.footericons li i{
+    background-color: #999999a4;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    transition: all 0.25s;
+
+}
+.footericons li i:hover{
+    color: #E25E3E;
+    transform: scale(1.2);
+
+}
+#button {
+    text-decoration: none !important;
+    display: inline-block;
+    background-color:#E25E3E;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  #button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #button:active {
+    background-color: #555;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }

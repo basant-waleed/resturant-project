@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservations</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .container {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container table-container">
+        <h1>Reservations</h1>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Phone Number</th>
+                    <th>Date</th>
+                    <th>State</th>
+                    <th>Comment</th>
+                </tr>
+            </thead>
+            <tbody id="tablebody"></tbody>
+        </table>
+        <a href="index.html" class="btn btn-primary">Back to Booking Form</a>
+    </div>
+
+    <script>
+        function displayOrders() {
+            var resOrders = JSON.parse(localStorage.getItem("reservations")) || [];
+            var reservationTable = '';
+            for (var i = 0; i < resOrders.length; i++) {
+                reservationTable += `
+                    <tr>
+                        <td>${resOrders[i].name}</td>
+                        <td>${resOrders[i].phone}</td>
+                        <td>${resOrders[i].date}</td>
+                        <td>${resOrders[i].state}</td>
+                        <td>${resOrders[i].comment || 'N/A'}</td>
+                    </tr>
+                `;
+            }
+            document.getElementById('tablebody').innerHTML = reservationTable;
+        }
+
+        // Call the function to populate the table when the page loads
+        displayOrders();
+    </script>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

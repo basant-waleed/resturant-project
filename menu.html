@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="cutlery-simple-element.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/skitter-slider@5.1.4/dist/skitter.min.css">
+     <link rel="stylesheet" href="css/menu.css">
+    <title>menu</title>
+</head>
+<body>
+    <!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <li class="nav-item px-4">
+            <a class="nav-link px-4" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item px-4">
+            <a class="nav-link px-4" href="#">About us</a>
+          </li>
+        
+
+          <a class="navbar-brand border border-5 mx-4 rounded-circle" href="#" >
+            <img src="cutlery-simple-element.png" width="95px" height="80px">
+          </a>
+
+          <li class="nav-item px-4">
+            <a class="nav-link activee px-4" href="menu.html">menu</a>
+          </li>
+
+          <li class="nav-item px-4">
+            <a class="nav-link px-4" href="contactUs.html">contact Us</a>
+          </li>
+      
+     
+        </ul>
+       
+      </div>
+    </div>
+  </nav>
+  <!-- end of navbar -->
+   <!-- menu header -->
+  <header>
+   <h1> <i class="fa-solid fa-angles-right iconheader"></i> Menu </h1>
+  </header>
+    <!-- endd header -->
+
+    <!-- popularr dishes -->
+     <section class="container popular" id="popular">
+      <h2>Most Popular Dishes</h2>
+      <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel"  data-bs-interval="2000">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/StockCake-Savory Steak Dinner_1720566842.jpg" class="d-block w-100 h-50" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Steak</h5>
+             
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/StockCake-Grilled Salmon Delight_1720566953.jpg" class="d-block w-100 h-50" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Grilled Salmon</h5>
+            
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/StockCake-Taco Feast Spread_1720566910.jpg" class="d-block w-100 h-50" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Tacos</h5>
+            
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+     </section>
+     <!-- endd of popular dishes  -->
+<section id="maindish">
+  <h2 >Main Dishes</h2>
+  <div class="container text-center w-100">
+    <ul class="list-group pt-2 w-100 list-group-horizontal m-auto w-100 mb-5 text-center justify-content-center align-items-center">
+      <li class="list-group-item" countryCode="seafood">seafood</li>
+      <li class="list-group-item" countryCode="pasta">pasta</li>
+      <li class="list-group-item" countryCode="steak">steak</li>
+    </ul>
+    <div class="row g-3" id="MainDISH" >
+      
+    </div>
+  </div>
+</section>
+<!-- end of main dish -->
+ <!-- stareters section -->
+ <section id="strt">
+  <h2>Starters</h2>
+  <div class="container">
+    <div class="row g-3" id="Starters">
+    
+      <p class="card-text">Some quick example text to build on the card title and </p>
+      <p class="price"> $400</p>
+    </div>
+  </div>
+ </section>
+ <!-- endd -->
+
+<!-- desserts -->
+ <section class="desserts" id="desert">
+  <h2>Desserts</h2>
+  <div class="container">
+    <div class="row g-3" id="desserts">
+
+    </div>
+  </div>
+ </section>
+
+
+
+ <!-- footer -->
+ <footer class="text-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-4">
+        <div class="footer-logo">
+          <img src="cutlery-simple-element.png" alt="">
+          <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos similique illo
+            vitae qui reiciendis iste</p>
+            </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <h3>Quick Links</h3>
+              <ul class="linksfooter">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contactUs.html">Contact</a></li>
+                </ul>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                  <h3>Follow Us</h3>
+                  <ul class="d-flex px-3 footericons">
+                    <li class="px-2"><a href="#"><i class="fa-brands fa-facebook-f"></i></a
+                      ></li>
+                      <li  class="px-2"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li  class="px-2"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li  class="px-2"><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                   </ul>
+                </div>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a id="button"></a>
+
+
+
+  <script src="js/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/skitter-slider@5.1.4/dist/jquery.skitter.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/menu.js"></script>
+</body>
+</html>

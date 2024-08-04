@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+::selection{
+    background-color: #e25f3ea9;
+    color: #fff;
+}
+body{
+  
+    background-color: #373A40;
+}
+
+/* navbar */
+nav{
+    background-color: #999999a4 !important;
+}
+.navbar-brand{
+    position: relative;
+    z-index: 55;
+    top: 20px ;
+    border-color: #E25E3E !important;
+    background-color: #E25E3E !important;
+}
+.nav-item{
+    transition: all 0.25s;
+    padding-top: 35px !important;
+}
+.nav-link {
+    font-size: large !important;
+    color: white !important;
+    transition: all 0.25s;
+}
+
+.nav-link:hover{
+    transition: all 0.25s;
+    border-radius: 10px;
+    background-color: #2e2e2e !important;
+   transform: scale(1.05);
+    color: #E25E3E !important;
+    font-size: larger !important;
+}
+.activee{
+    transition: all 0.25s;
+    border-radius: 10px;
+    background-color: #2e2e2e !important;
+   transform: scale(1.05);
+    color: #E25E3E !important;
+    font-size: larger !important;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #E25E3E;
+    width: 100%;
+    background-image: linear-gradient(#585858ad , #585757d9), url(../images/StockCake-Urban\ Coffee\ Shop_1720555096.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     height: 50vh;
+     font-weight: bold !important;
+     font-size: x-large !important;
+
+}
+.circle-style{
+    position: absolute;
+    bottom: -230px;
+    right: 0px;
+    width: 200px;
+    height: 250px;
+   border-bottom-right-radius: 150px;
+   border-top-left-radius: 150px;
+    background-color: #E25E3E;
+    overflow: hidden;
+    z-index: 5;
+}
+.circle-style-2{
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+    width: 200px;
+    height: 250px;
+   border-bottom-right-radius: 150px;
+   border-top-left-radius: 100px;
+    background-color: #E25E3E;
+    overflow: hidden;
+}
+
+.contactus{
+    color:#373A40;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+width: 80%;
+margin: auto;
+margin-top: 50px;
+background-color:#EEEEEE;
+position: relative; 
+ z-index: 3;
+ border-radius: 10px;
+}
+.contactus-left{
+    padding: 20px;
+    width: 100%;
+  
+}
+.contactus-right h1{
+  color: #E25E3E;
+}
+    
+.contactus-right{
+    margin-top: 40px;
+    padding: 20px;
+    width: 100%;
+
+}
+.btn-contact{
+    background-color: #E25E3E;
+    color: white;
+}
+
+.show{
+    display: block;
+}
+button#up{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    background-color: #E25E3E;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 20px;
+    display: none;
+
+}
+.show{
+    display: block;
+}
+
+.iconcolor{
+    font-size: large;
+    color: #E25E3E;
+}
+.confirmation-message{
+   
+        margin-top: 20px;
+        color: #E25E3E;
+        font-weight: bold;
+        background-color: #656565;
+        padding: 10px;
+        border-radius: 10px;
+    
+}
+
+/* footer */
+footer{
+    background-color: #999999a4;
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+}
+.footer-logo img{
+    text-align: center;
+    width: 25%;
+    height: 25%;
+    padding: 10px;
+    background-color: #E25E3E;
+    border-radius: 50%;
+}
+footer a{
+    text-decoration: none;
+    color: #EEEEEE;
+    transition: all 0.25s;
+
+}
+.linksfooter li {
+    padding: 5px;
+    color: #EEEEEE;
+    transition: all 0.25s;
+}
+.linksfooter li a:hover{
+    width: 500px;
+    background-color: #999999a4;
+    border-radius: 10px;
+    padding: 10px 30px;
+    color: #E25E3E;
+    font-size: 18px;
+}
+.footericons li i{
+    background-color: #999999a4;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    transition: all 0.25s;
+
+}
+.footericons li i:hover{
+    color: #E25E3E;
+    transform: scale(1.2);
+
+}
+#button {
+    text-decoration: none !important;
+    display: inline-block;
+    background-color:#E25E3E;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  #button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #button:active {
+    background-color: #555;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
