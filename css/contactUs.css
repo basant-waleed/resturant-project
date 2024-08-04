@@ -208,6 +208,10 @@ footer a{
     transform: scale(1.2);
 
 }
+@media screen and (max-width:750px) {
+    .navbar-brand{
+        display: none;
+    }}
 #button {
     text-decoration: none !important;
     display: inline-block;
